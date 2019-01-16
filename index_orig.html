@@ -1,0 +1,239 @@
+<!--This is a comment.  Comments are not displayed.-->
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>My home page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--The styling is controlled by the CSS file "my.css".-->
+    <link type="text/css" rel="stylesheet" href="my.css" media="all">
+  </head>
+
+  <body>
+    <h1>My first web page</h1>
+
+    <h2>HTML</h2>
+    <p>
+      Hypertext Markup Language, or HTML, is the basic language of the
+      Interwebs.  There are three main languages used in web pages:
+    </p>
+    <ul>
+      <li>HTML, which describes the content and layout of a web page,</li>
+      <li>CSS (for Cascading Style Sheet), which describes how the HTML
+	elements appear, and</li>
+      <li>Javascript, which enables us to make dynamic changes to web
+	pages.</li>
+    </ul>
+    <p>
+      HTML is an instance of the Extensible Markup Language (XML).  The layout
+      of the page is defined by the HTML <b>elements</b> that the page
+      contains.  An HTML element consists of a start tag and an end tag.  For
+      example, paragraphs begin with
+    </p>
+    <pre>&lt;p&gt;</pre>
+    <p>
+      and end with
+    </p>
+    <pre>&lt;/p&gt;</pre>
+
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">This is
+      a link to a list of HTML elements.</a>
+
+    <a href="https://www.w3schools.com/tags">Here is another list.</a>
+
+    <p style="background-color: blue; color: white;">
+      Most of the styling of the different elements in this web page is being
+      controlled by the CSS (Cascading Style Sheet) file
+      <a href="my.css" style="color: white;">my.css</a>.
+      The styling in this element is set locally, in the web page HTML.
+    </p>
+
+    <p>
+      CSS is what makes a web page look spiffy.  You should look
+      in the file my.css and figure out how this works for this page.
+      Here are some links with information about CSS:
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">the
+        Mozilla folks, who are behind the Firefox browser,</a></li>
+        <li><a href="https://www.w3schools.com/css/default.asp">w3schools.com</a></li>
+      </ul>
+    <p>
+
+    <h2>Examples of HTML elements</h2>
+    <p>There are six levels of HTML headings.  They are intended to be
+      headings for sections of a webpage.  You an control their size, font,
+      color, &amp;c. using CSS.</p>
+    <h1>This is a heading.</h1>
+    <h2>This is a lower-level heading.</h2>
+    <h3>This is a lower-lower-level heading.</h3>
+    <h4>This is a lower-lower-lower-level heading.</h4>
+    <h5>This is a lower-lower-lower-lower-level heading.</h5>
+    <h6>This is a lower-lower-lower-lower-level heading.</h6>
+
+    <p>
+      This is a paragraph.
+      So she went into the garden to cut a cabbage leaf, to make an apple pie; and at
+      the same time a great she-bear coming up the street, pops its head into
+      the shop. 'What! no soap?' So he died, and she very imprudently married
+      the barber; and there were present the Joblillies,
+      and the Garyulies, and the grand Panjandrum himself, with the little
+      round button at top; and they all fell to playing the game of catch as
+      catch can, till the gunpowder ran out at the heels of their boots.
+     </p>
+
+    <p class="alert">
+      This is a paragraph with a line break.  It also illustrates the use of
+      the "class" attribute. <br/>
+      So she went into the garden to cut a cabbage leaf, to make an apple pie; and at
+      the same time a great she-bear coming up the street, pops its head into
+      the shop. 'What! no soap?' So he died, and she very imprudently married
+      the barber; and there were present the Joblillies,
+      and the Garyulies, and the grand Panjandrum himself, with the little
+      round button at top; and they all fell to playing the game of catch as
+      catch can, till the gunpowder ran out at the heels of their boots.
+    </p>
+    <p>Here is preformatted text with its own font and font size.  With
+       preformatted text we respect line breaks, &amp;c., in the text.  HTML
+       otherwise ignores spaces and line breaks.</p>
+    <pre class="poetry">
+      The Owl and the Pussy-cat went to sea
+      In a beautiful pea-green boat,
+      They took some honey, and plenty of money,
+      Wrapped up in a five-pound note.
+   </pre>
+
+    <p>
+      Here is a block quote:
+    </p>
+    <blockquote>
+      Baseness attracts everyone.  If you see something being done suddenly by
+      many people, you may assume that it is base. <br/>
+      &ndash; Goethe, <i>Venetian Epigrams</i>
+    </blockquote>
+
+    <p>You can control the appearance of lists using CSS.</p>
+    <ol>
+      <li>This is an ordered list</li>
+      <li>This is an ordered list</li>
+     </ol>
+    <ol class="upper_roman">
+      <li>This is an ordered list with a classical flair</li>
+      <li>This is an ordered list with a classical flair</li>
+     </ol>
+    <ul>
+      <li>This is an unordered list</li>
+      <li>This is an unordered list</li>
+     </ul>
+    <ul class="square">
+      <li>This is an unordered list with a square marker</li>
+      <li>This is an unordered list with a square marker</li>
+     </ul>
+
+    <table>
+      <caption>A table with this week's lunch specials</caption>
+      <tr>
+	<th>Day</th>
+	<th>Special of the day</th>
+      </tr>
+      <tr>
+	<td>Monday</td>
+	<td><a href="https://www.geniuskitchen.com/recipe/chicken-fried-spam-247582"
+	       target="_blank">Chicken fried spam</a></td>
+      </tr>
+      <tr>
+	<td>Tuesday</td>
+	<td><a href="https://www.spam.com/recipes/2-step-spam-grilled-cheese"
+	       target="_blank">Grilled cheese &amp; spam sandwich</a></td>
+      </tr>
+      <tr>
+	<td>Wednesday</td>
+	<td><a href="https://www.spam.com/recipes/spam-musubi" target="_blank">Spam musubi</a></td>
+      </tr>
+      <tr>
+	<td>Thursday</td>
+	<td><a href="https://www.spam.com/recipes/spam-fried-nice" target="_blank">Spam fried rice</a></td>
+      </tr>
+      <tr>
+	<td>Friday</td>
+	<td><a href="https://www.spam.com/recipes/wonderful-spam-wontons"
+	       target="_blank">Spam wontons</a></td>
+      </tr>
+   </table>
+
+    <h2>Embedding images</h2>
+    <figure>
+      <!--This figure is local to this website.-->
+      <img height=200 src="dont_panic.png" alt="don't panic">
+    </figure>
+    <figure>
+      <!--This figure is being imported from another website.-->
+      <img height=200 src="http://www.cs.wm.edu/~rml/teaching/csci141/jupyter/kitten.jpg" alt="a cute kitten!">
+      <figcaption>A kitten!</figcaption>
+    </figure>
+
+    <h2>Hyperlinks</h2>
+    <p>You can style the color and other properties of hyperlinks with CSS.</p>
+
+    <p>
+      Here are some Unicode characters.  The characters are also hyperlinks.
+      <a href="http://www.fileformat.info/info/unicode/char/1f631/index.htm">&#128561;</a>
+      <a href="http://www.fileformat.info/info/unicode/char/1f368/index.htm">&#127848;</a>
+      <a href="http://www.fileformat.info/info/unicode/char/1f418/index.htm">&#128024;</a>
+    </p>
+
+    <p>
+      <a href="https://www.youtube.com/watch?v=K3tNgwQwKK4"
+	 target="_blank">This is a cute hyperlink.</a>
+    </p>
+    <p>
+      <a href="https://www.compoundchem.com/wp-content/uploads/2014/08/The-Schmidt-Insect-Sting-Pain-Index.pdf"
+	 target="_blank">This is a scary hyperlink.</a>
+      Fortunately the bullet ant
+      <a href="https://en.wikipedia.org/wiki/Paraponera_clavata" target="_blank">doesn't live
+	in North America</a>.
+    </p>
+    <p>
+      <a href="https://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo"
+      target="_blank">Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo</a>.
+     </p>
+
+    <h2>Audio and video elements</h2>
+    <p>
+      Yay! an audio playback element:<br/>
+      <audio controls>
+	<source src="cheering.wav" type="audio/mpeg">
+	  <source src="cheering.mp3" type="audio/x-wav">
+	    Your browser does not support the audio element.
+       </audio>
+    </p>
+
+    <p>A video element.  The video is a computational simulation of the vibration of a thin material:<br/>
+    <video width="320" height="240" controls>
+      <source src="peaks.mp4" type="video/mp4">
+      <source src="peaks.avi" type="video/avi">
+      Your browser does not support the video tag.
+    </video>
+    <p>
+
+    <p>
+      An embedded YouTube video:<br/>
+      <iframe width="560" height="315"
+	      src="https://www.youtube.com/embed/SYSWRdYqK1g"
+	      allow="autoplay; encrypted-media" allowfullscreen>
+      </iframe>
+   </p>
+
+  <div class="line100" style="width:100%; margin-bottom:0px"></div>
+
+  <div style="float:right; margin:0px; margin-left:20px; margin-top:4px;">
+    <a href="http://jigsaw.w3.org/css-validator/check?uri=referer;verbose=1">
+      <img width=88 height=31 style="border:0" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+    </a>
+  </div>
+
+  <div style="float:right; margin:0px; margin-left:20px; margin-top:4px;">
+    <a href="http://validator.w3.org/check?uri=referer;verbose=1">
+      <img width=88 height=31 style="border:0" src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01!">
+    </a>
+  </div>
+ </body>
+</html>
